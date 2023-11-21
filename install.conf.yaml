@@ -5,6 +5,6 @@
 
 - clean: []
 - link: 
-    ~/.config/nvim: nvim/config
+    ~/.config/nvim: nvim
     ~/.vimrc: vim/vimrc
 - shell: []
