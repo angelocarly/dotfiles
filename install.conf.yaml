@@ -12,4 +12,5 @@
     ~/.zprofile: zsh/zprofile
     ~/.cache/wal: wal/cache
     ~/.config/wal: wal/wal
+    ~/.oh-my-zsh/custom: oh-my-zsh/custom
 - shell: []
