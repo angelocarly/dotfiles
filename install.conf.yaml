@@ -1,3 +1,10 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
 - clean: []
-- link: {}
+- link: 
+    ~/.config/nvim: nvim/config
+    ~/.vimrc: vim/vimrc
 - shell: []

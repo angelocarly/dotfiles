@@ -1,0 +1,33 @@
+{
+	"languageserver": {
+		"haskell": {
+			"command": "haskell-language-server-wrapper",
+			"args": ["--lsp"],
+			"rootPatterns": ["*.cabal", "stack.yaml", "cabal.project", "package.yaml", "hie.yaml"],
+			"filetypes": ["haskell", "lhaskell"]
+		},
+		"cmake": {
+			"command": "cmake-language-server",
+			"filetypes": ["cmake"],
+			"rootPatterns": [
+				"build/"
+			],
+			"initializationOptions": {
+				"buildDirectory": "build"
+			}
+		},
+		"ccls": {
+			"command": "ccls",
+			"filetypes": ["c", "cpp", "cuda", "objc", "objcpp"],
+			"rootPatterns": [".ccls-root", "compile_commands.json"],
+			"initializationOptions": {
+				"cache": {
+					"directory": ".ccls-cache"
+				},
+				"client": {
+					"snippetSupport": true
+				}
+			}
+		}
+	}
+}
