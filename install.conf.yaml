@@ -8,4 +8,6 @@
     ~/.config/nvim: nvim
     ~/.vimrc: vim/vimrc
     ~/.config/kitty: kitty
+    ~/.zshrc: zsh/zshrc
+    ~/.zprofile: zsh/zprofile
 - shell: []
