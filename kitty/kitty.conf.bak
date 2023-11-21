@@ -1,0 +1,14 @@
+# include ./themes/Sundried.conf
+window_padding_width 2.0
+dynamic_background_opacity yes
+# background_opacity 0.80
+include ~/.cache/wal/colors-kitty.conf
+enable_audio_bell no
+allow_remote_control yes
+
+font_family Terminus (TTF) 
+bold_font Terminus (TTF) Bold
+italic_font Terminus (TTF) Italic
+bold_italic_font Terminus (TTF) Bold Italic
+font_size 10
+cursor_shape beam

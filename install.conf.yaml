@@ -7,4 +7,5 @@
 - link: 
     ~/.config/nvim: nvim
     ~/.vimrc: vim/vimrc
+    ~/.config/kitty: kitty
 - shell: []
