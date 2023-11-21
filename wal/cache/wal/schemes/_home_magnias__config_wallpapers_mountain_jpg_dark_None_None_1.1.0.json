@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/magnias/.config/wallpapers/mountain.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#39151a",
+        "foreground": "#c8cddf",
+        "cursor": "#c8cddf"
+    },
+    "colors": {
+        "color0": "#39151a",
+        "color1": "#EC5A5B",
+        "color2": "#F48F74",
+        "color3": "#276796",
+        "color4": "#636394",
+        "color5": "#9D6994",
+        "color6": "#6191BC",
+        "color7": "#c8cddf",
+        "color8": "#8c8f9c",
+        "color9": "#EC5A5B",
+        "color10": "#F48F74",
+        "color11": "#276796",
+        "color12": "#636394",
+        "color13": "#9D6994",
+        "color14": "#6191BC",
+        "color15": "#c8cddf"
+    }
+}

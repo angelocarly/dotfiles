@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/magnias/.config/wallpapers/gumbootsoup.png",
+    "alpha": "100",
+    "special": {
+        "background": "#040303",
+        "foreground": "#f4efde",
+        "cursor": "#f4efde"
+    },
+    "colors": {
+        "color0": "#040303",
+        "color1": "#7E8072",
+        "color2": "#C08F62",
+        "color3": "#ACA692",
+        "color4": "#CFB69B",
+        "color5": "#E1D3B4",
+        "color6": "#E4DBC3",
+        "color7": "#f4efde",
+        "color8": "#aaa79b",
+        "color9": "#7E8072",
+        "color10": "#C08F62",
+        "color11": "#ACA692",
+        "color12": "#CFB69B",
+        "color13": "#E1D3B4",
+        "color14": "#E4DBC3",
+        "color15": "#f4efde"
+    }
+}

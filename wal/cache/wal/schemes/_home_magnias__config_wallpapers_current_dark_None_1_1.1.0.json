@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/magnias/.config/wallpapers/current",
+    "alpha": "100",
+    "special": {
+        "background": "#121916",
+        "foreground": "#cbc4ad",
+        "cursor": "#cbc4ad"
+    },
+    "colors": {
+        "color0": "#121916",
+        "color1": "#00bc3b",
+        "color2": "#15d100",
+        "color3": "#00cb30",
+        "color4": "#48d900",
+        "color5": "#eb4600",
+        "color6": "#98ea00",
+        "color7": "#cbc4ad",
+        "color8": "#8e8979",
+        "color9": "#00bc3b",
+        "color10": "#15d100",
+        "color11": "#00cb30",
+        "color12": "#48d900",
+        "color13": "#eb4600",
+        "color14": "#98ea00",
+        "color15": "#cbc4ad"
+    }
+}

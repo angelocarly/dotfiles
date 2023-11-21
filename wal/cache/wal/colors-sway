@@ -1,0 +1,21 @@
+set $wallpaper None
+
+set $background #000000
+set $foreground #ffffff
+
+set $color0 #251f1f
+set $color1 #eb4509
+set $color2 #94e76b
+set $color3 #ffac18
+set $color4 #46aede
+set $color5 #e32c57
+set $color6 #d6dbac
+set $color7 #efefef
+set $color8 #5e5e5e
+set $color9 #eb4509
+set $color10 #94e76b
+set $color11 #ffac18
+set $color12 #46aede
+set $color13 #e32c57
+set $color14 #d6dbac
+set $color15 #efefef

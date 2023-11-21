@@ -10,4 +10,6 @@
     ~/.config/kitty: kitty
     ~/.zshrc: zsh/zshrc
     ~/.zprofile: zsh/zprofile
+    ~/.cache/wal: wal/cache
+    ~/.config/wal: wal/wal
 - shell: []
