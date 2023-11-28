@@ -1,5 +1,5 @@
 export EDITOR="nvim"
-export ZSH="/home/magnias/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="blinks-mag"
 
