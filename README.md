@@ -3,6 +3,7 @@ Dotfiles Template
 
 To install, install the following dependencies first:
 - [vim-plug](https://github.com/junegunn/vim-plug)
+
 Then simply run `./install`
 
 
