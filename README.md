@@ -1,7 +1,10 @@
 Dotfiles Template
 =================
 
-To install, simply run `./install`
+To install, install the following dependencies first:
+- [vim-plug](https://github.com/junegunn/vim-plug)
+Then simply run `./install`
+
 
 ---
-Dotfiles are managed with [Dotbot](https://github.com/anishathalye/dotbot).
+My dotfiles are managed with [Dotbot](https://github.com/anishathalye/dotbot).
