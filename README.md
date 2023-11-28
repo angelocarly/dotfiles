@@ -1,4 +1,4 @@
-Dotfiles Template
+Dotfiles
 =================
 
 To install, install the following dependencies first:
