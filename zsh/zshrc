@@ -20,6 +20,7 @@ alias o="xdg-open"
 alias rep="until !!; do sleep 5 ; done"
 alias nmap="grc sudo nmap"
 alias cat=bat
+alias python="/Users/angelo/Software/venv/bin/python3"
 
 # Plugins
 plugins=(
@@ -36,11 +37,8 @@ fpath+=($ZSH/plugins/docker)
 [[ -s /home/magnias/.autojump/etc/profile.d/autojump.sh ]] && source /home/magnias/.autojump/etc/profile.d/autojump.sh
 autoload -U compinit && compinit -u
 
-export ARCHFLAGS="-arch x86_64"
-
 # Source
 source $ZSH/oh-my-zsh.sh
-
 
 alias ls="exa"
 alias ll="exa -l"

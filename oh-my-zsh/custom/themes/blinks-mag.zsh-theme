@@ -1,1 +1,0 @@
-/home/magnias/.dotfiles/oh-my-zsh/blinks-mag.zsh-theme
