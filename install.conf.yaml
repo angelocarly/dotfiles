@@ -12,7 +12,7 @@
     ~/.zprofile: zsh/zprofile
     ~/.cache/wal: wal/cache
     ~/.config/wal: wal/wal
-    ~/.oh-my-zsh/custom: oh-my-zsh/custom
+    ~/.oh-my-zsh/custom/themes/blinks-mag.zsh-theme: oh-my-zsh/blinks-mag.zsh-theme
     ~/.config/hypr: hypr
     ~/.tmux.conf: tmux/tmux.conf
 - shell: []
