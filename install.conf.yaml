@@ -16,4 +16,5 @@
     ~/.config/hypr: hypr
     ~/.tmux.conf: tmux/tmux.conf
     ~/.config/skhd: skhd
+    ~/.config/rofi: rofi
 - shell: []
