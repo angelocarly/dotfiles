@@ -5,16 +5,17 @@
 
 - clean: []
 - link: 
-    ~/.config/nvim: nvim
-    ~/.vimrc: vim/vimrc
+    ~/.cache/wal: wal/cache
+    ~/.config/hypr: hypr
     ~/.config/kitty: kitty
+    ~/.config/rofi: rofi
+    ~/.config/nvim: nvim
+    ~/.config/skhd: skhd
+    ~/.config/wal: wal/wal
+    ~/.config/waybar: waybar
+    ~/.oh-my-zsh/custom/themes/blinks-mag.zsh-theme: oh-my-zsh/blinks-mag.zsh-theme
+    ~/.tmux.conf: tmux/tmux.conf
+    ~/.vimrc: vim/vimrc
     ~/.zshrc: zsh/zshrc
     ~/.zprofile: zsh/zprofile
-    ~/.cache/wal: wal/cache
-    ~/.config/wal: wal/wal
-    ~/.oh-my-zsh/custom/themes/blinks-mag.zsh-theme: oh-my-zsh/blinks-mag.zsh-theme
-    ~/.config/hypr: hypr
-    ~/.tmux.conf: tmux/tmux.conf
-    ~/.config/skhd: skhd
-    ~/.config/rofi: rofi
 - shell: []
