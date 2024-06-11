@@ -1,0 +1,37 @@
+call plug#begin()
+
+" Language server
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
+" Editor
+Plug 'tpope/vim-surround' 			" Auto surround apostrophes
+Plug 'raimondi/delimitmate' 			" Auto close brackets
+Plug 'machakann/vim-highlightedyank'		" Mark the region you yanked
+Plug 'folke/which-key.nvim', { 'do': ':set timeout timeoutlen=300' }
+
+" Colors and design
+Plug 'vim-airline/vim-airline' 			" Light statusbar
+Plug 'vim-airline/vim-airline-themes'
+Plug 'fenetikm/falcon'				" Color theme
+Plug 'sainnhe/sonokai'				" Color theme
+
+call plug#end()
+
+
+" Colors and theming {{{
+
+let g:falcon_airline = 1
+let g:airline_theme = 'falcon'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='atomic'
+set termguicolors
+"set t_Co=256
+syntax on
+
+" }}}
+
+" Color theme
+let g:sonokai_style = 'shusia'
+let g:sonokai_better_performance = 1
+
+colorscheme sonokai
