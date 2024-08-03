@@ -1,8 +1,9 @@
 {
   "delimitmate": { "branch": "master", "commit": "537a1da0fa5eeb88640425c37e545af933c56e1b" },
-  "lazy.nvim": { "branch": "main", "commit": "eb4957442e3182f051b0ae11da32e06d22c190e3" },
-  "sonokai": { "branch": "master", "commit": "a90d437f1f4e48825150065987d175e2a45fa39e" },
-  "vim-airline": { "branch": "master", "commit": "16c1638f93f93fad41da8cb6eef2bcd8eed0a57a" },
+  "lazy.nvim": { "branch": "main", "commit": "4ea9fe060042f345960ad0c01aa7bca91405e10a" },
+  "nvim-treesitter": { "branch": "master", "commit": "cebb7e7c5bf1ab643dba49f1857f9b00d2a0ba81" },
+  "sonokai": { "branch": "master", "commit": "bceb820817b12d3441636f7cf76ab3f77557a662" },
+  "vim-airline": { "branch": "master", "commit": "02894b6ef4752afd8579fc837aec5fb4f62409f7" },
   "vim-airline-themes": { "branch": "master", "commit": "a9aa25ce323b2dd04a52706f4d1b044f4feb7617" },
   "vim-highlightedyank": { "branch": "master", "commit": "afb0f262b490706c23e94012c2ab9fa67c0481ce" },
   "vim-surround": { "branch": "master", "commit": "3d188ed2113431cf8dac77be61b842acb64433d9" },

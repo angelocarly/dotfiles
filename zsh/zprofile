@@ -14,10 +14,14 @@ export XDG_CONFIG_HOME
 export PATH="$HOME/Software/bin:$HOME/Scripts:$HOME/.cargo/bin:$HOME/.local/bin:$PATH"
 export _JAVA_AWT_WM_NONREPARENTING=1
 export XCURSOR_PATH="/usr/share/icons"
-export KVM="/mnt/data/kvm"
-export PG_OF_PATH="/opt/openFrameworks"
 
 export TT_DATA_DIR=/Users/angelo/Work/Timetrack
+
+# Wildfly
+export JBOSS_HOME="/Users/angelo/Software/wildfly-27.0.1.Final" 
+export WILDFLY_HOME="/Users/angelo/Software/wildfly-27.0.1.Final"
+export JAVA_HOME=$(/usr/libexec/java_home)
+export APACHE_WEBROOT="/Users/angelo/Work/Code/Development/ace3webroot"
 
 # setxkbmap -model pc104 -layout us,us -variant colemak, -option grp:shifts_toggle
 
