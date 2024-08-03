@@ -1,3 +1,10 @@
+-- My plugins are managed with [lazy.nvim](https://github.com/folke/lazy.nvim)
+
+-- Vim configuration
+local o = vim.opt
+o.number = true;
+o.relativenumber = true;
+
 -- lazy.nvim setup
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
