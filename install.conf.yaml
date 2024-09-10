@@ -17,5 +17,4 @@
     ~/.tmux.conf: tmux/tmux.conf
     ~/.vimrc: vim/vimrc
     ~/.zshrc: zsh/zshrc
-    ~/.zprofile: zsh/zprofile
 - shell: []

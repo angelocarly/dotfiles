@@ -15,10 +15,10 @@ fn + lalt - 4 : "${HOME}"/.config/yabai/scripts/show_disk.sh
 fn + lalt - 5 : "${HOME}"/.config/yabai/scripts/show_song.sh
 
 # Navigation
-rcmd + rshift + ralt + rctrl - h : yabai -m window --focus west
-rcmd + rshift + ralt + rctrl - j : yabai -m window --focus south
-rcmd + rshift + ralt + rctrl - k : yabai -m window --focus north
-rcmd + rshift + ralt + rctrl - l : yabai -m window --focus east
+rcmd + rshift + ralt + rctrl - m : yabai -m window --focus west
+rcmd + rshift + ralt + rctrl - n : yabai -m window --focus south
+rcmd + rshift + ralt + rctrl - e : yabai -m window --focus north
+rcmd + rshift + ralt + rctrl - i : yabai -m window --focus east
 
 # Focus previous window
 rcmd + rshift + ralt + rctrl - tab : yabai -m space --focus recent

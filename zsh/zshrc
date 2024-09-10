@@ -30,7 +30,6 @@ plugins=(
 	colored-man-pages
 #zsh-syntax-highlighting
 )
-eval $(thefuck --alias)
 fpath+=($ZSH/plugins/docker)
 
 # Autojump
