@@ -1,0 +1,38 @@
+source ~/.cache/wal/colors-tty.sh
+#wal -R -q
+
+XDG_CONFIG_HOME="$HOME/.config"
+
+if command -v systemctl &> /dev/null; then
+	# Only on linux
+else
+	export PATH="/opt/homebrew/bin:$PATH"
+	export PATH="$HOME/Library/Python/3.11/bin:$PATH"
+fi
+
+export XDG_CONFIG_HOME
+export PATH="$HOME/Software/bin:$HOME/Scripts:$HOME/.cargo/bin:$HOME/.local/bin:$PATH"
+export _JAVA_AWT_WM_NONREPARENTING=1
+export XCURSOR_PATH="/usr/share/icons"
+
+export TT_DATA_DIR=/Users/angelo/Work/Timetrack
+
+# Wildfly
+export JBOSS_HOME="/Users/angelo/Software/wildfly-27.0.1.Final" 
+export WILDFLY_HOME="/Users/angelo/Software/wildfly-27.0.1.Final"
+export JAVA_HOME=$(/usr/libexec/java_home)
+export APACHE_WEBROOT="/Users/angelo/Work/Code/Development/ace3webroot"
+
+# setxkbmap -model pc104 -layout us,us -variant colemak, -option grp:shifts_toggle
+
+# only on linux
+if command -v systemctl &> /dev/null;
+then
+	# auto start x
+	if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+	  exec Hyprland
+	fi
+fi
+
+# Created by `pipx` on 2024-09-16 10:07:16
+export PATH="$PATH:/Users/angelo/.local/bin"

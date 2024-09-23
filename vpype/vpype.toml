@@ -1,0 +1,22 @@
+[gwrite]
+default_profile = "gcodemm"
+
+[gwrite.gcodemm]
+document_start = "G21\nG17\nG90\n"
+vertical_flip = true
+unit = "mm"
+layer_start = "(Start Layer)\n"
+line_start = "(Start Block)\n"
+segment_first = """G00 Z5
+G00 X{x:.4f}f Y{y:.4f}
+M3 S1000
+G4 P0.3
+G01 Z1 F3500
+"""
+segment = """G01 X{x:.4f} Y{y:.4f} Z1\n"""
+line_end = """G00 Z 5.0000
+M5 S0
+G4 P0.5\n"""
+document_end = """M5
+G00 X0.0000 Y0.0000
+M2"""
